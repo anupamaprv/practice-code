@@ -27,3 +27,7 @@ fem_unemp <- read.xlsx("indicator_f15-24.xlsx", sheetName = "Data",
 fem1_unemp <- read.xlsx("indicator_f15-24_old.xls", sheetName = "Data", header = TRUE)
 
 
+## Reading data from a webpage/ specified url
+xassetSector <- read.table("http://www.portfolioprobe.com/R/blog/xassetCountrySector.txt",
+    sep="\t", header=TRUE)
+
